@@ -1,0 +1,977 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="icon" type="image/png" href="imagenes/favicon.png" />
+<link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+<title>Casos positivos y defunciones a COVID-19 por municipio | Secretaría de Salud</title>
+
+<style type="text/css" media="all">
+	 @import url("estilos/style.css?a=1"); 
+	 @import url("estilos/nivo-slider.css");
+	 @import url("estilos/bootstrap.css");
+	 @import url("estilos/default.css");
+</style>
+<script src="scripts/jquery.min.js"></script>
+<script>
+function clasebuscador(){
+	var y =document.getElementsByClassName("gsib_a");
+	if(y.length>0){
+		y[0].firstChild.placeholder="¿Qué estás buscando?";
+	}	
+}
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9067900-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-9067900-1');
+</script>
+
+
+      
+</head>
+ <body onLoad="clasebuscador();">
+  <section id="header" class="container ">
+	<div id="logoheader" class="col-lg-3">
+       <img src="imagenes/h1.png" alt="">
+     </div>
+     <div class="col-lg-9 encabezado"> 
+      <div class="navbar navbar-default ">
+        <div class="container-fluid bordetop">
+            <div class="sistemah1">
+                <h1>Secretaría de Salud</h1>
+            </div>
+        </div>
+       </div>	
+     </div>
+   </section>
+   
+  <div class="container">		
+      <div class="leyendatop">
+           <div class="col-lg-3"></div>
+          <div class="col-lg-9 ">Gobierno del Estado de México</div>
+	  </div>
+   </div> 
+ 
+   <div class="container">
+    <button type="button" class="navbar-toggle" aria-controls="menu" aria-expanded="false" id="btnmenuprincipal">&#x2630; Menú Principal</button>
+</div>
+<script>
+    $("#btnmenuprincipal").click(function () {
+        $('.menu_principal').toggleClass('menu-visible');
+        $("#btnmenuprincipal").attr('aria-expanded', $("#btnmenuprincipal").attr('aria-expanded') == 'false' ? 'true' : 'false');
+    });
+</script>  
+  
+<nav class="container menu_principal" aria-label="Menú principal" id="menu">
+    <div class="navbar navbar-default">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+           <li><a href="home.html">Inicio</a></li>
+              <li><a lang='es' href='acerca_de'>Acerca de la Secretaría</a></li>
+<li><a lang='es' href='atencion_ciudadano'>Atención al Ciudadano</a></li>
+<li class='active'><a lang='es' href='covid'>COVID-19</a></li>
+<li><a lang='es' href='Temas'>Temas</a></li>
+<li><a lang='es' href='Temas_programas'>Programas</a></li>
+<li><a lang='es' href='tramites_servicios'>Trámites y Servicios</a></li>
+         </ul>  
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+	<div class="row">
+		<div id="breadcrumb" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h2 class="element-invisible"></h2>
+			<div class="breadcrumb">
+			<a href="home.html">Inicio</a> » <a href='covid'>COVID-19</a> » Casos positivos y defunciones a COVID-19 por municipio</div>
+		</div>	
+  </div>
+</div>
+<br />
+<div class="container">
+<div style="margin:0px auto 0px auto; max-width:600px; width:100%; display:table;">
+    <div id="buscador" style="max-width:500px; width:80%; display:table-cell;">         
+<script>
+  (function() {
+    var cx = '004554091483047066497:dp2hr0zoygs';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+        </div>
+        
+         <div style="width:20%; display:table-cell; vertical-align:middle;">
+            <a class="face2 enlaces"  href="https://www.facebook.com/Salud.Edomex" target="_blank"></a>
+            <a class="twitter2 enlaces"  href="https://twitter.com/saludedomex?lang=es" target="_blank"></a> 
+         </div>
+         
+ </div>
+     </div>
+
+     <div class="container">
+        <button type="button" class="navbar-toggle" aria-controls="menusec" aria-expanded="false" id="btnmenusec">&#x2630; Menú Secundario</button>
+    </div>
+    <script>
+        $("#btnmenusec").click(function () {
+            $('#menusec').toggleClass('menu-visible');
+            $("#btnmenusec").attr('aria-expanded', $("#btnmenusec").attr('aria-expanded') == 'false' ? 'true' : 'false');
+        });
+    </script>
+    <div class="container">
+	<div class="row">
+        <div id="right_a" class="col-lg-3"> 
+			<div class="region region-right-a">
+				<nav class="block-menu menu_secundario" aria-label="Menú secundario" id="menusec">
+				<h2>COVID-19</h2>
+<div class='content'>
+<ul class='menu'>
+<li class='leaf'><a href='acciones' title='Acciones ante COVID-19'>Acciones ante COVID-19</a>
+</li>
+<li class='leaf'><a href='recomendaciones' title='Recomendaciones'>Recomendaciones</a>
+</li>
+<li class='leaf'><a href='medidas_prevencion' title='Medidas de prevención'>Medidas de prevención</a>
+</li>
+<li class='leaf'><a href='videos_covid' title='Videos'>Videos</a>
+</li>
+<li class='activesection active leaf'><a href='covid19_municipio' title='Casos positivos y defunciones a COVID-19 por municipio'>Casos positivos y defunciones a COVID-19 por municipio</a>
+</li>
+<li class='leaf'><a href='Enterate' title='Enterate'>Enterate</a>
+</li>
+<li class='leaf'><a href='hospitales_covid-19' title='Hospitales COVID-19'>Hospitales COVID-19</a>
+</li>
+<li class='last leaf'><a href='plan_regreso_seguro' title='Plan Regreso Seguro'>Plan Regreso Seguro</a>
+</li>
+</ul>
+</div>
+ 
+				</nav>
+			</div>
+		</div>
+              
+   <div id="main" class="col-xs-12 col-sm-12 col-md-9">
+     <div class="clearfix"></div>
+     <div id="divtitulo"><h2 >Casos positivos y defunciones a COVID-19 por municipio</h2></div>
+	    <div class="content">
+			<div class="field-item even" property="content:encoded">
+
+<style>
+    .contenedorestadistica {
+        max-width: 850px;
+        width: 100%;
+        margin: 25px 5px 25px 5px;
+        color: #383738;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .tablaestadistica{
+        text-align:center !important;
+        font-size: 16px;
+        width: 100%;
+        max-width: 470px;
+        border:solid medium #ffffff;
+    }
+    .tablaestadistica th{
+        background-color: #395723;
+        color:#ffffff;
+        border:solid medium #ffffff;
+        text-align:center !important;
+    }
+    .tablaestadistica td{
+        background-color:#D9D9D7;
+        color:#434341;
+        border:solid medium #ffffff;
+    }
+    .est_filamun{
+        text-align: left !important;
+    }
+    .icono_estadistica{
+      display: inline-block;
+      margin-left: 3px;
+    }
+    .icono_estadistica .fas{
+      font-size:20px !important; margin-bottom:-6px !important; display: block !important; float: left !important;
+    }
+</style>
+<script>
+    function ordenar(valor){
+        document.ordena.orden.value=valor;
+	    document.ordena.submit();
+    }
+</script>
+<script src="https://kit.fontawesome.com/8eeedd0a8c.js" crossorigin="anonymous"></script>
+
+<!-- page content -->
+<div class="right_col" role="main" style="min-height:951px;">
+	<div class="">
+	  
+	   <div class="clearfix"></div>
+	  <div class="row">
+		<div class="col-md-12 col-sm-12 col-xs-12">
+		  <div class="x_panel">
+			<div class="x_title">
+			  			  <div class="clearfix"></div>
+			</div>
+
+			
+			  <br>
+
+    <div class="contenedorestadistica">
+        <form id="ordena" name="ordena" action="" method="post" enctype="multipart/form-data">
+			<input type="hidden" name="orden" id="orden"  value="">
+			<label>Selecciona una fecha</label><br>
+			<select name="fecha" onchange="document.ordena.submit();">
+				<option value='08/06/2020' >08/06/2020</option><option value='07/06/2020' >07/06/2020</option><option value='06/06/2020' >06/06/2020</option><option value='05/06/2020' >05/06/2020</option><option value='04/06/2020' >04/06/2020</option><option value='03/06/2020' >03/06/2020</option><option value='02/06/2020' >02/06/2020</option><option value='01/06/2020' >01/06/2020</option><option value='31/05/2020' >31/05/2020</option><option value='30/05/2020' >30/05/2020</option><option value='29/05/2020' >29/05/2020</option><option value='28/05/2020' >28/05/2020</option><option value='27/05/2020' >27/05/2020</option><option value='26/05/2020' >26/05/2020</option><option value='25/05/2020' >25/05/2020</option><option value='24/05/2020' >24/05/2020</option><option value='23/05/2020' >23/05/2020</option><option value='22/05/2020' >22/05/2020</option><option value='21/05/2020' >21/05/2020</option><option value='20/05/2020' >20/05/2020</option><option value='19/05/2020' >19/05/2020</option><option value='18/05/2020' >18/05/2020</option><option value='17/05/2020' >17/05/2020</option><option value='16/05/2020' >16/05/2020</option><option value='15/05/2020' >15/05/2020</option><option value='14/05/2020' >14/05/2020</option><option value='13/05/2020' >13/05/2020</option><option value='12/05/2020' >12/05/2020</option><option value='11/05/2020' >11/05/2020</option><option value='10/05/2020' >10/05/2020</option><option value='09/05/2020' >09/05/2020</option><option value='08/05/2020' >08/05/2020</option><option value='07/05/2020' >07/05/2020</option><option value='06/05/2020' >06/05/2020</option><option value='05/05/2020' >05/05/2020</option><option value='04/05/2020' >04/05/2020</option><option value='03/05/2020' >03/05/2020</option><option value='02/05/2020' >02/05/2020</option><option value='01/05/2020' >01/05/2020</option><option value='30/04/2020' >30/04/2020</option><option value='29/04/2020' >29/04/2020</option><option value='28/04/2020' >28/04/2020</option><option value='27/04/2020' >27/04/2020</option><option value='26/04/2020' >26/04/2020</option><option value='25/04/2020' >25/04/2020</option><option value='24/04/2020' >24/04/2020</option>			</select><br><br>
+            <input type="button" value="Ordenar por municipio" onclick="ordenar('municipio');" >
+            <br>
+      <input type="button" value="Ordenar por número de casos positivos" onclick="ordenar('casos');">
+              <div class="icono_estadistica"><div class="fas fa-caret-square-left"></div></div>
+      <br>
+      <input type="button" value="Ordenar por número de defunciones" onclick="ordenar('defunciones');">
+      		</form>
+    </div>
+    
+    <table class="table table-striped tablaestadistica">
+        <tr>
+          <th width="60%" scope="col">Municipio</th>
+          <th width="20%" scope="col">Casos</th>
+          <th width="20%" scope="col">Defunciones</th>
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Nezahualcóyotl</th>
+          <td>2,408</td> 
+          <td>131</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ecatepec de Morelos</th>
+          <td>2,201</td> 
+          <td>144</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Naucalpan</th>
+          <td>1,248</td> 
+          <td>52</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tlalnepantla</th>
+          <td>1,218</td> 
+          <td>64</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Toluca</th>
+          <td>1,069</td> 
+          <td>56</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chalco</th>
+          <td>929</td> 
+          <td>93</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chimalhuacán</th>
+          <td>884</td> 
+          <td>79</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ixtapaluca</th>
+          <td>729</td> 
+          <td>124</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tultitlán</th>
+          <td>548</td> 
+          <td>90</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Atizapán de Zaragoza</th>
+          <td>546</td> 
+          <td>80</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tecámac</th>
+          <td>491</td> 
+          <td>35</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Nicolás Romero</th>
+          <td>456</td> 
+          <td>55</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Cuautitlán Izcalli</th>
+          <td>408</td> 
+          <td>56</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Valle de Chalco</th>
+          <td>382</td> 
+          <td>88</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Huixquilucan</th>
+          <td>377</td> 
+          <td>11</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">La Paz</th>
+          <td>376</td> 
+          <td>60</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Cuautitlán</th>
+          <td>352</td> 
+          <td>28</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Metepec</th>
+          <td>312</td> 
+          <td>15</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Coacalco de Berriozábal</th>
+          <td>275</td> 
+          <td>26</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Texcoco</th>
+          <td>269</td> 
+          <td>17</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Zumpango</th>
+          <td>178</td> 
+          <td>15</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chicoloapan</th>
+          <td>176</td> 
+          <td>10</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tultepec</th>
+          <td>146</td> 
+          <td>14</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Zinacantepec</th>
+          <td>145</td> 
+          <td>12</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Lerma</th>
+          <td>143</td> 
+          <td>14</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Acolman</th>
+          <td>131</td> 
+          <td>7</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ixtlahuaca</th>
+          <td>93</td> 
+          <td>23</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tlalmanalco</th>
+          <td>89</td> 
+          <td>6</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Huehuetoca</th>
+          <td>86</td> 
+          <td>7</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Atlacomulco</th>
+          <td>83</td> 
+          <td>12</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Melchor Ocampo</th>
+          <td>82</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Almoloya de Juárez</th>
+          <td>79</td> 
+          <td>6</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Xonacatlán</th>
+          <td>78</td> 
+          <td>6</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Atizapán</th>
+          <td>75</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Amecameca</th>
+          <td>73</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San Felipe del Progreso</th>
+          <td>71</td> 
+          <td>13</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Temoaya</th>
+          <td>71</td> 
+          <td>6</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San Mateo Atenco</th>
+          <td>66</td> 
+          <td>8</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tenango del Valle</th>
+          <td>66</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Teoloyucán</th>
+          <td>59</td> 
+          <td>7</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Valle de Bravo</th>
+          <td>58</td> 
+          <td>9</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tianguistenco</th>
+          <td>53</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Teotihuacán</th>
+          <td>51</td> 
+          <td>9</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tenancingo</th>
+          <td>51</td> 
+          <td>4</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Calimaya</th>
+          <td>51</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tepotzotlán</th>
+          <td>49</td> 
+          <td>8</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Coyotepec</th>
+          <td>49</td> 
+          <td>5</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ocoyoacac</th>
+          <td>48</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tezoyuca</th>
+          <td>41</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Xalatlaco</th>
+          <td>39</td> 
+          <td>5</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Otzolotepec</th>
+          <td>39</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Jocotitlán</th>
+          <td>36</td> 
+          <td>7</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">El Oro</th>
+          <td>32</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Otumba</th>
+          <td>31</td> 
+          <td>8</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Capulhuac</th>
+          <td>31</td> 
+          <td>4</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Jilotepec</th>
+          <td>29</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Cocotitlán</th>
+          <td>29</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Acambay</th>
+          <td>28</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tejupilco</th>
+          <td>28</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Hueypoxtla</th>
+          <td>28</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ozumba</th>
+          <td>27</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Jiquipilco</th>
+          <td>26</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Atenco</th>
+          <td>25</td> 
+          <td>4</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Temascalapa</th>
+          <td>24</td> 
+          <td>4</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Nextlalpan</th>
+          <td>24</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San Antonio la Isla</th>
+          <td>24</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chiautla</th>
+          <td>24</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Temascalcingo</th>
+          <td>23</td> 
+          <td>5</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Atlautla</th>
+          <td>22</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Villa Guerrero</th>
+          <td>21</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tepetlixpa</th>
+          <td>20</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San José del Rincón</th>
+          <td>19</td> 
+          <td>5</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ocuilan</th>
+          <td>17</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Rayón</th>
+          <td>17</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Amanalco</th>
+          <td>16</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Villa Victoria</th>
+          <td>16</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Axapusco</th>
+          <td>15</td> 
+          <td>3</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Jaltenco</th>
+          <td>15</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Temamatla</th>
+          <td>15</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tepetlaoxtoc</th>
+          <td>14</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tequixquiac</th>
+          <td>14</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chapultepec</th>
+          <td>14</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chiconcuac</th>
+          <td>14</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San Martín de las Pirámides</th>
+          <td>14</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Villa del Carbón</th>
+          <td>14</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Mexicaltzingo</th>
+          <td>13</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Coatepec Harinas</th>
+          <td>12</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Jilotzingo</th>
+          <td>12</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Morelos</th>
+          <td>12</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Almoloya del Río</th>
+          <td>12</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Zumpahuacán</th>
+          <td>12</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Soyaniquilpan de Juárez</th>
+          <td>10</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Apaxco</th>
+          <td>10</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Juchitepec</th>
+          <td>10</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tonanitla</th>
+          <td>10</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ayapango</th>
+          <td>9</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Aculco</th>
+          <td>9</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Isidro Fabela</th>
+          <td>9</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ixtapan de la Sal</th>
+          <td>8</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tenango del Aire</th>
+          <td>8</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Texcalyacac</th>
+          <td>8</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Donato Guerra</th>
+          <td>7</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Malinalco</th>
+          <td>7</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Timilpan</th>
+          <td>7</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Villa de Allende</th>
+          <td>7</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Joquicingo</th>
+          <td>6</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ecatzingo</th>
+          <td>6</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Luvianos</th>
+          <td>5</td> 
+          <td>2</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">San Simón de Guerrero</th>
+          <td>5</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Amatepec</th>
+          <td>4</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Chapa de Mota</th>
+          <td>4</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Papalotla</th>
+          <td>4</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Almoloya de Alquisiras</th>
+          <td>3</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Nopaltepec</th>
+          <td>3</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Temascaltepec</th>
+          <td>3</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Otzoloapan</th>
+          <td>2</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Sultepec</th>
+          <td>2</td> 
+          <td>1</td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Polotitlán</th>
+          <td>2</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Texcaltitlán</th>
+          <td>2</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tonatico</th>
+          <td>2</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Zacazonapan</th>
+          <td>2</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Ixtapan del Oro</th>
+          <td>1</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Santo Tomás</th>
+          <td>1</td> 
+          <td></td> 
+        </tr>
+                <tr>
+          <th scope="row"  style="text-align:left !important;">Tlatlaya</th>
+          <td>1</td> 
+          <td></td> 
+        </tr>
+                <tr>
+            <th scope="row">Total</th>
+            <td>18,993</td> 
+            <td>1,621</td> 
+          </tr>
+    </table>
+
+
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<style type="text/css" media="all">
+	 @import url("estilos/covid.css"); 
+</style>
+
+<a href="covid"><button class="button button6"><i class="fas fa-house-user"></i> Regresar al contenido COVID-19</button></a>                <!--     
+      <p class="rtecenter"><img alt="" class="img-responsive" src="/sites/dgsei.edomex.gob.mx/files/images/acercade.jpg" /></p>
+      <p> </p>
+      <p> </p>
+        <p><span style="color:#ffffff;">0000</span></p>-->
+    
+				<br><br>
+              </div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<footer> 
+		<div id="detallefooter" class="col-lg-9">
+				<div class="col-lg-3">
+					<h4>Conoce el Estado</h4>					
+					<ul class="lista">
+						<li><a href="http://edomex.gob.mx/" target="_blank">Portal del Gobierno del Estado de México</a></li>					
+						<li><a href="http://www.secogem.gob.mx/SAM/sit_atn_mex.asp" target="_blank">Quejas y Denuncias</a></li>			
+						<li><a href="http://cemer.edomex.gob.mx/" target="_blank">Comisión Estatal de Mejora Regulatoria</a></li>					
+						<li><a href="http://www.ipomex.org.mx/ipo/lgt/indice/salud.web" target="_blank">Información Pública de oficio Mexiquense</a></li>
+						<li><a href="http://www.saimex.org.mx/saimex/ciudadano/login.page" target="_blank">Solicitud de Información</a></li>
+					</ul>
+					<!--<div class="footermas">
+						<a href="#"></a>
+					</div>-->			
+				</div>					
+				<div class="col-lg-3">			
+					<h4>Acerca del Sitio</h4>										
+					<ul class="lista">
+					    <li><a href="mailto:webmastersalud_edomex@edomex.gob.mx" target="_blank">Contáctanos</a></li>
+						<li><a href="paginageneral.html?pag_id=mapasitio" target="_self">Mapa del sitio</a></li>													
+                        <li><a href="paginageneral.html?pag_id=avisos_legales" target="_self">Avisos legales</a></li>
+						<li><a href="paginageneral.html?pag_id=acerca_sitio" target="_self">Acerca del sitio</a></li>
+                       <li><a href="../intranet" target="_blank">Intranet</a></li>
+                        
+					</ul>
+					<!--<div class="footermas">
+						<a href="#"></a>
+					</div>	-->					
+				</div>					
+				<div class="col-lg-3">
+					<h4>Contacto</h4>												
+					<ul class="lista">
+						<li>Gobierno del Estado de México<br> 
+           					   Secretaría de Salud<br></li>
+						<li>Av. Independencia Oriente # 1009, Col. Reforma y F.F.C.C. C.P. 50070, Toluca, Estado de México.</li>
+						<li><a href="callto:2262500">(722) 2 26 25 00</a><br>
+						<a href="mailto:webmastersalud@edomex.gob.mx">webmastersalud@edomex.gob.mx
+</a></li>													
+					</ul>
+					<!--<div class="footermas">
+						<a href="#"></a>
+					</div>	-->														
+				</div>
+				<div class="col-lg-3">												
+					<h4>Enlaces de Interés</h4>							
+					<ul class="lista"> 
+                    	<li><a href="../isem" target="_blank">Instituto de Salud del Estado de México</a></li>
+                        <li><a href="../hmpmonica_pretelini/home.html" target="_blank">Hospital Mateno Perinatal Mónica Pretelini Sáenz</a></li>                     
+						<li><a href="../cmalmateos" target="_blank">Centro Médico Lic. Adolfo López Mateos</a></li>
+                        <li><a href="http://www.gob.mx/salud" target="_blank">Secretaria de Salud</a></li>	
+                         <li><a href="http://www.edomex.gob.mx/edictos" target="_blank">Edictos</a></li>						
+                        <li><a href="../isem/paginageneral.html?pag_id=enlaces_interes" target="_blank">Ver más</a></li>	
+					</ul>
+					<!--<div class="footermas">
+						<a href="#"></a>
+					</div>	-->								
+				</div>				
+		</div>
+		
+		<div id="identidad" class="col-lg-3">			
+			<div id="logofooter"><img src="imagenes/h1.png" alt=""><hr>
+            <b> <a class="face enlaces"  href="https://www.facebook.com/Salud.Edomex" target="_blank"></a> <a class="twitter enlaces"  href="https://twitter.com/saludedomex?lang=es" target="_blank"></a> </b> 
+            </div>
+		</div>
+  <div style="clear:both"></div>
+		<div id="footerbottom" class="col-lg-12">
+			<div class="row">Algunos derechos reservados 2018. Gobierno del Estado de México<br />Esta página está diseñada para verse mejor en resolución de 1280 x 768 o superior, Firefox & Chrome v30, Safari v5, IE 10
+			</div>
+		</div>
+	</footer>
+  </div>
+</body>
+</html>
+ 
