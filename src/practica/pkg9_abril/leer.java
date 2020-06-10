@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package practica.pkg9_abril;
 
 import java.io.BufferedReader;
@@ -11,14 +6,10 @@ import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-/**
- *
- * @author Escuela
- */
 public class leer {
 
     escribir datos = new escribir();
-     escribirmal d=new escribirmal();
+    escribirmal d=new escribirmal();
     public void leer_url() {
         try {
             // Indicamos la URL donde nos conectamos
